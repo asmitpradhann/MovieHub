@@ -94,6 +94,18 @@
     }
   }
 
+  .no-results {
+    @apply flex flex-col items-center justify-center gap-4 mt-10;
+
+    & img {
+      @apply w-48 h-auto opacity-70;
+    }
+
+    & p {
+      @apply text-gray-100 text-lg;
+    }
+  }
+
   .all-movies {
     @apply space-y-9;
 

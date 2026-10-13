@@ -119,6 +119,11 @@ const App = () => {
             <Spinner />
           ) : errorMessage ? (
             <p className="text-red-500">{errorMessage}</p>
+          ) : movieList.length === 0 ? (
+            <div className="no-results">
+              <img src="/no-movie.png" alt="No movies found" />
+              <p>No movies found for your search.</p>
+            </div>
           ) : (
             <ul>
               {movieList.map((movie) => (
