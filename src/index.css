@@ -17,7 +17,8 @@
 
   --breakpoint-xs: 480px;
 
-  --background-image-hero-pattern: url("/hero-bg.png");
+  --background-image-hero-pattern: #000
+  /* --background-image-hero-pattern: url("/hero-bg.png"); */
 }
 
 @layer base {
