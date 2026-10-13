@@ -62,6 +62,4 @@ MovieHub is a movie discovery application built with React. It allows users to b
 
 6. Open the local URL shown in your terminal, usually `http://localhost:5173`.
 
-## License
 
-This project is intended for learning and personal use.
